@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # Biopython
 from Bio import SeqIO
 # regex
@@ -19,5 +21,3 @@ for seq_record in SeqIO.parse(infile, "fasta"):
                 SeqIO.write(seq_record, outfile, "fasta")
 
 outfile.close()
-
-
