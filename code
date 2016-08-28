@@ -4,10 +4,10 @@ from Bio import SeqIO
 import re
 
 # file with protein sequences e.g. uniprot_sprot_human_fasta.fasta
-infile = ""
+infile = "uniprot_sprot_human_fasta.fasta"
 
 # file to write motif matches to e.g. motif_hits.txt
-outfile = open("", "w")
+outfile = open("motif_hits.txt", "w")
 
 # motif to search for e.g. Jungmichel motif G.{3}K.{7,13}(F|W).{2}R.F.{30,80}(K|R).{12,14}W
 ProteinAlphabet = ""
